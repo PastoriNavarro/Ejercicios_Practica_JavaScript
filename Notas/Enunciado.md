@@ -1,4 +1,4 @@
-## Notas y Nota Media
+## Correspondencia de Notas y Nota Media
 
 Partiendo de un documento HTML básico con su estructura correspondiente. Se pide:
 1. Crear un programa que pida al usuario que introduzca 6 notas.
