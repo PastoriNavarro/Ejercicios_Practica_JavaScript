@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Main.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Práctica 12</title>
+</head>
+<body>
+    
+    <form action="/enviarDatos" onsubmit="return validar()">
+
+        <h1>Datos de usuario</h1>
+
+        <label for=""><input type="text" name="usuario" placeholder="Usuario"></label><br>
+        <label for=""><input type="email" name="correo" placeholder="Correo Electrónico"></label><br>
+        <label for=""><input type="password" name="contraseña" placeholder="Contraseña"></label><br>
+        <label for=""><input type="password" name="contraseña_repetida" placeholder="Repetir Contraseña"></label><br>
+
+        <button type="submit" name="bt_enviar">Enviar</button>
+        <button type="reset">Limpiar</button>
+     
+    </form>
+    
+    
+</body>
+</html>
